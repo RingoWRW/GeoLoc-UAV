@@ -1,2 +1,2 @@
 # GeoLoc-UAV
-UAV geo-localization
+The dataset and code will be released soon
