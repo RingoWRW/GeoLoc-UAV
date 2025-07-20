@@ -52,34 +52,25 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">UAV-GeoLoc: A Large-vocabulary Dataset and Geometry-Transformed Method for UAV Geo-Localization</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://github.com/RingoWRW" target="_blank">Rouwan Wu</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Jiacheng deng</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Mingyu Mou</a>
-                  </span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Xingyi He</a>
-                  </span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Maojun Zhang</a>
-                  </span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yu Liu</a>
-                  </span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Shen Yan</a>
-                  </span>
+                <a href="https://github.com/RingoWRW" target="_blank">Rouwan Wu</a><sup>1</sup>,</span>
+                    <span class="author-block"><a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Jiacheng Deng</a><sup>1</sup>,</span>
+                    <span class="author-block"><a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Mingyu Mou</a><sup>1</sup>,</span>
+                    <span class="author-block"><a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Xingyi He</a><sup>2</sup>,</span>
+                    <span class="author-block"><a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Maojun Zhang</a><sup>1</sup>,</span>
+                    <span class="author-block"><a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yu Liu</a><sup>1</sup>,</span>
+                    <span class="author-block"><a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Shen Yan</a><sup>1</sup></span>
                   </div>
-
+                  
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block"><sup>1</sup>National University of Defense Technology</span><br>
+                    <span class="author-block"><sup>2</sup>Zhejiang University</span><br>
+                    <span class="author-block">RA-L 2025</span>
                   </div>
+                  
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
@@ -94,20 +85,9 @@
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/RingoWRW/GeoLoc-UAV/tree/main" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -118,12 +98,22 @@
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://huggingface.co/datasets/RingoWRW97/UAV-GeoLoc" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                    <i class="fas fa-database"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>Huggingface</span>
+                  </a>
+                
+                  <!-- baidu disk -->
+                <span class="link-block">
+                    <a href="https://pan.baidu.com/s/1KgzisV6waruhK4HVH4v1KQ?pwd=dt8t" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>BaiduDisk </span>   
                 </a>
               </span>
             </div>
@@ -139,13 +129,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
+      <img src="static/images/teaser_1.jpg" alt="Teaser image" class="img-fluid">
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        <p><strong>Fig. 1:</strong> <strong>Left:</strong> The <span style="color: green;"><strong>green</strong></span> boxes indicate ground-truth correspondences between drone-view and satellite-view images. While previous datasets primarily emphasize <em>one-to-one</em> matching, our dataset adopts <em>one-to-<strong>N</strong></em> matching, reflecting real-world scenarios better. <strong>Right:</strong> Geographic type statistics. The proposed dataset includes <strong>27</strong> geographic categories.</p>
       </h2>
     </div>
   </div>
@@ -160,7 +146,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Visual geo-localization empowers unmanned aerial vehicles (UAVs) to navigate in Global Navigation Satellite System (GNSS)-denied environments. This capability is typically formulated as an image retrieval task, where UAV-acquired images are matched against geo-tagged satellite image patches. However, existing datasets are predominantly limited to single urban scenarios and often assume an ideal spatial alignment between UAV and satellite, which is unrealistic in real-world settings. To address these limitations, we present World-UAV, a large-vocabulary dataset that offers: (1) extensive scene diversity, spanning 27 unique geographical categories, and (2) realistic spatial discrepancies, incorporating significant geometric variations in rotation and scale between UAV and satellite image pairs. These geometric transformations pose substantial challenges to current global descriptor-based methods, which exhibit marked performance degradation in such scenarios. We propose UAVPlace, a novel learning approach incorporating geometric transformation encoding modules to integrate multi-perspective transformation features, thereby generating transformation-invariant global descriptors. Extensive experiments demonstrate the effectiveness of our method.
           </p>
         </div>
       </div>
@@ -175,122 +161,90 @@
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
+
+        <!-- Item 1 -->
+       
+<div class="item">
+  <img src="static/images/Experiment1.png" alt="Experiment 1" style="width: 100%; margin-bottom: 0.5rem;" />
+  <div class="subtitle has-text-centered" style="margin-top: 0;">
+    <p style="margin-top: 0; margin-bottom: 0;">
+      <strong>Tab:</strong> Comparative evaluation on World-UAV dataset. The best results are <strong>bold</strong>, and the best results achieved with the same backbone are <u>underlined</u>. <span style="color: gray;">Gray</span> represents using the large model for the backbone. The <img src="static/icons/fire.png" alt="fine-tuned" width="20px"> indicates fine-tuned backbones, while the <img src="static/icons/lpn.png" alt="LPN" width="20px"> denotes models trained and tested with LPN.
+    </p>
   </div>
 </div>
-</div>
+
+
+        <!-- Item 2 -->
+        <div class="item">
+          <img src="static/images/Experiment2.png" alt="Experiment 2" style="width: 100%; margin-bottom: 0.5rem;" />
+          <div class="subtitle has-text-centered" style="margin-top: 0;">
+           <p>
+            <strong>Tab:</strong> <strong>Comparison of different methods under rotation transformations on the Nardo-Air dataset.</strong> 
+  <em>Diff</em> represents the difference between the largest and smallest R@1 values. 
+  (R@1/R@5/R@10)
+          </p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="item">
+          <img src="static/images/Experiment3.png" alt="Experiment 3" style="width: 100%; margin-bottom: 0.5rem;" />
+          <div class="subtitle has-text-centered" style="margin-top: 0;">
+           <p>
+            <strong>Tab:</strong> <strong>Comparison of different methods under rotation transformations on DenseUAV dataset.</strong> (R@1/R@5/R@10)
+</p>
+
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="item">
+          <img src="static/images/Experiment4.png" alt="Experiment 4" style="width: 100%; margin-bottom: 0.5rem;" />
+          <div class="subtitle has-text-centered" style="margin-top: 0;">
+            <p> <strong>Fig:</strong> <strong>Qualitative results with different methods.</strong></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </section>
 <!-- End image carousel -->
 
 
 
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
 <!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
+    <div class="container has-text-centered">
+      <h2 class="title is-3">Demo</h2>
+      <video autoplay controls muted loop playsinline 
+             style="max-width: 100%; height: auto; border-radius: 8px;">
+        <source src="static/videos/demo_small.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </div>
   </div>
 </section>
+
 <!-- End video carousel -->
 
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
 
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@ARTICLE{11077664,
+        author={Wu, Rouwan and Deng, Jiacheng and Mou, Mingyu and He, Xingyi and Zhang, Maojun and Liu, Yu and Yan, Shen},
+        journal={IEEE Robotics and Automation Letters}, 
+        title={UAV-GeoLoc: A Large-vocabulary Dataset and Geometry-Transformed Method for UAV Geo-Localization}, 
+        year={2025},
+        volume={},
+        number={},
+        pages={1-8},
+        keywords={Autonomous aerial vehicles;Satellites;Urban areas;Satellite images;Training;Drones;Location awareness;Large language models;Engines;Data mining;Localization;recognition;vision-based navigation},
+        doi={10.1109/LRA.2025.3588061}}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
