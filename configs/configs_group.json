@@ -1,0 +1,27 @@
+{
+    "default_group_config": {
+          "group_arch" : "groupnet",
+        "group_config": "none"
+    },
+    "default_agg_config":{
+        "agg_arch": "convap",
+        "agg_config":{
+            "in_channels": 256, 
+            "out_channels": 256, 
+            "s1": 1,
+            "s2": 1
+        }
+    },
+
+    "dataset_root_dir": "/media/guan/新加卷/EdgeBing/WorldLoc/",
+    "test_index_txt": "/media/guan/新加卷/EdgeBing/WorldLoc/Index/test.txt",
+    "test_rank_gt": "/media/guan/新加卷/EdgeBing/WorldLoc/test/test_rerank.txt",
+    "write_path": "/media/guan/新加卷/EdgeBing/WorldLoc/test",
+
+    "num_workers": 0,
+    "batch_size": 1,
+    "custom_sampling": "True",
+    "verbose":"True",
+
+    "device":"cuda"
+}

@@ -1,0 +1,14 @@
+
+# python eval_simidataset_parser_rot.py --save_txt /media/guan/新加卷/Code/worldloc_result/Rot/dino_finetune.txt --test_txt /media/guan/新加卷/EdgeBing/WorldLoc/ya1/test_country.txt --mode vanilia --backbone_arch dinov2_vits14 --pretrain_flag False --agg_in_channels 384 --agg_out_channels 384 --agg_LPN False --checkpoint_path /media/guan/新加卷/Code/Code/PTH/city/dinos_finetune/weights_e5_0.6370.pth
+# python eval_simidataset_parser_rot.py --save_txt /media/guan/新加卷/Code/worldloc_result/Rot/dino_lpn.txt --test_txt /media/guan/新加卷/EdgeBing/WorldLoc/ya1/test_country.txt --mode vanilia --backbone_arch dinov2_vits14 --pretrain_flag False --agg_in_channels 384 --agg_out_channels 384 --agg_LPN True --checkpoint_path /media/guan/新加卷/Code/Code/PTH/city/dinos_LPN/weights_e5_0.5323.pth
+# python eval_simidataset_parser_rot.py --save_txt /media/guan/新加卷/Code/worldloc_result/Rot/resnet_finetune.txt --test_txt /media/guan/新加卷/EdgeBing/WorldLoc/ya1/test_country.txt --mode vanilia --backbone_arch resnet18 --pretrain_flag False --agg_in_channels 512 --agg_out_channels 512 --agg_LPN False --checkpoint_path /media/guan/新加卷/Code/Code/PTH/city/resnet_finetune/weights_e5_0.5685.pth
+# python eval_simidataset_parser_rot.py --save_txt /media/guan/新加卷/Code/worldloc_result/Rot/resnet_lpn.txt --test_txt /media/guan/新加卷/EdgeBing/WorldLoc/ya1/test_country.txt --mode vanilia --backbone_arch resnet18 --pretrain_flag False --agg_in_channels 512 --agg_out_channels 512 --agg_LPN True --checkpoint_path /media/guan/新加卷/Code/Code/PTH/city/resnet_LPN/weights_e5_0.4468.pth
+# python eval_simidataset_parser_rot.py --save_txt /media/guan/新加卷/Code/worldloc_result/Rot/our.txt --test_txt /media/guan/新加卷/EdgeBing/WorldLoc/ya1/test_country.txt --mode group --agg_in_channels 256 --agg_out_channels 256 --checkpoint_path /media/guan/新加卷/Code/Code/world/groupdino-new-city-s3r4/120253/weights_e10_0.7412.pth
+
+
+python eval_simidataset_parser_anyloc_rot.py --mode dinov2_vits14 --save_txt /media/guan/新加卷/Code/worldloc_result/Rot/dinos.txt --test_txt /media/guan/新加卷/EdgeBing/WorldLoc/ya1/test_country.txt
+python eval_simidataset_parser_anyloc_rot.py --mode dinov2_vitb14 --save_txt /media/guan/新加卷/Code/worldloc_result/Rot/dinob.txt --test_txt /media/guan/新加卷/EdgeBing/WorldLoc/ya1/test_country.txt
+python eval_simidataset_parser_anyloc_rot.py --mode dinov2_vitl14 --save_txt /media/guan/新加卷/Code/worldloc_result/Rot/dinol.txt --test_txt /media/guan/新加卷/EdgeBing/WorldLoc/ya1/test_country.txt
+python eval_simidataset_parser_anyloc_rot.py --mode dinov2_vitg14 --save_txt /media/guan/新加卷/Code/worldloc_result/Rot/dinog.txt --test_txt /media/guan/新加卷/EdgeBing/WorldLoc/ya1/test_country.txt
+
+python eval_simidataset_parser_game4loc_rot.py --save_txt /media/guan/新加卷/Code/worldloc_result/Rot/game4loc.txt --test_txt /media/guan/新加卷/EdgeBing/WorldLoc/ya1/test_country.txt
